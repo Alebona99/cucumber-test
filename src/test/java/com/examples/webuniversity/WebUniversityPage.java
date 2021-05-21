@@ -20,51 +20,51 @@ public class WebUniversityPage {
     private static final String WEBDRIVER_CHROME_PATH = "/usr/bin/chromedriver";
     protected WebDriver driver;
 
-    @Given("Open click button page")
+    @Given("click button page is opened")
     public void openClickButtonPage() {
         driver.get(SITE);
     }
 
-    @When("Click on first button")
+    @When("user click on first button")
     public void clickOnFirstButton() {
         WebUniversityPageElements mainPage =  new WebUniversityPageElements(driver);
         mainPage.firstButton.click();
     }
 
-    @And("I should see a modal")
+    @And("see a modal")
     public void iShouldSeeAModal() {
         WebUniversityPageElements mainPage = new WebUniversityPageElements(driver);
         Assertions.assertTrue(driver.getPageSource().contains("Close"));
     }
 
-    @Then("Close the first modal")
+    @Then("the user close the first modal")
     public void closeTheFirstModal() {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         WebUniversityPageElements mainPage = new WebUniversityPageElements(driver);
         mainPage.firstCloseButton.click();
     }
 
-    @When("Click on second button")
+    @When("user click on second button")
     public void clickOnSecondButton() {
         WebUniversityPageElements mainPage = new WebUniversityPageElements(driver);
         mainPage.secondButton.click();
     }
 
 
-    @When("Click on third button")
+    @When("user click on third button")
     public void clickOnThirdButton() {
         WebUniversityPageElements mainPage = new WebUniversityPageElements(driver);
         mainPage.thirdButton.click();
     }
 
-    @Then("Close the second modal")
+    @Then("the user close the second modal")
     public void closeTheSecondModal() {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         WebUniversityPageElements mainPage = new WebUniversityPageElements(driver);
         mainPage.secondCloseButton.click();
     }
 
-    @Then("Close the third modal")
+    @Then("the user close the third modal")
     public void closeTheThirdModal() {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         WebUniversityPageElements mainPage = new WebUniversityPageElements(driver);

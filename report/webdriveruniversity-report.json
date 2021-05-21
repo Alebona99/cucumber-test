@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-05-20T15:17:26.418Z",
+        "start_timestamp": "2021-05-21T10:25:26.735Z",
         "before": [
           {
             "result": {
-              "duration": 478609374,
+              "duration": 430102887,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 67183191,
+              "duration": 74839969,
               "status": "passed"
             },
             "match": {
@@ -35,11 +35,11 @@
         "steps": [
           {
             "result": {
-              "duration": 436806516,
+              "duration": 512828839,
               "status": "passed"
             },
             "line": 6,
-            "name": "Open click button page",
+            "name": "click button page is opened",
             "match": {
               "location": "com.examples.webuniversity.WebUniversityPage.openClickButtonPage()"
             },
@@ -47,11 +47,11 @@
           },
           {
             "result": {
-              "duration": 57719406,
+              "duration": 54960852,
               "status": "passed"
             },
             "line": 7,
-            "name": "Click on first button",
+            "name": "user click on first button",
             "match": {
               "location": "com.examples.webuniversity.WebUniversityPage.clickOnFirstButton()"
             },
@@ -59,11 +59,11 @@
           },
           {
             "result": {
-              "duration": 13661683,
+              "duration": 12582709,
               "status": "passed"
             },
             "line": 8,
-            "name": "I should see a modal",
+            "name": "see a modal",
             "match": {
               "location": "com.examples.webuniversity.WebUniversityPage.iShouldSeeAModal()"
             },
@@ -71,11 +71,11 @@
           },
           {
             "result": {
-              "duration": 159290556,
+              "duration": 171321976,
               "status": "passed"
             },
             "line": 9,
-            "name": "Close the first modal",
+            "name": "the user close the first modal",
             "match": {
               "location": "com.examples.webuniversity.WebUniversityPage.closeTheFirstModal()"
             },
@@ -84,11 +84,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-20T15:17:27.709Z",
+        "start_timestamp": "2021-05-21T10:25:28.062Z",
         "before": [
           {
             "result": {
-              "duration": 133287651,
+              "duration": 162403267,
               "status": "passed"
             },
             "match": {
@@ -103,7 +103,7 @@
         "after": [
           {
             "result": {
-              "duration": 66271528,
+              "duration": 70482668,
               "status": "passed"
             },
             "match": {
@@ -116,11 +116,11 @@
         "steps": [
           {
             "result": {
-              "duration": 441890116,
+              "duration": 516744654,
               "status": "passed"
             },
             "line": 12,
-            "name": "Open click button page",
+            "name": "click button page is opened",
             "match": {
               "location": "com.examples.webuniversity.WebUniversityPage.openClickButtonPage()"
             },
@@ -128,11 +128,11 @@
           },
           {
             "result": {
-              "duration": 44445327,
+              "duration": 45963912,
               "status": "passed"
             },
             "line": 13,
-            "name": "Click on second button",
+            "name": "user click on second button",
             "match": {
               "location": "com.examples.webuniversity.WebUniversityPage.clickOnSecondButton()"
             },
@@ -140,11 +140,11 @@
           },
           {
             "result": {
-              "duration": 7794254,
+              "duration": 8746004,
               "status": "passed"
             },
             "line": 14,
-            "name": "I should see a modal",
+            "name": "see a modal",
             "match": {
               "location": "com.examples.webuniversity.WebUniversityPage.iShouldSeeAModal()"
             },
@@ -152,11 +152,11 @@
           },
           {
             "result": {
-              "duration": 210786348,
+              "duration": 234550349,
               "status": "passed"
             },
             "line": 15,
-            "name": "Close the second modal",
+            "name": "the user close the second modal",
             "match": {
               "location": "com.examples.webuniversity.WebUniversityPage.closeTheSecondModal()"
             },
@@ -165,11 +165,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-20T15:17:28.636Z",
+        "start_timestamp": "2021-05-21T10:25:29.131Z",
         "before": [
           {
             "result": {
-              "duration": 138073320,
+              "duration": 133457616,
               "status": "passed"
             },
             "match": {
@@ -184,7 +184,7 @@
         "after": [
           {
             "result": {
-              "duration": 64508582,
+              "duration": 65513914,
               "status": "passed"
             },
             "match": {
@@ -197,11 +197,11 @@
         "steps": [
           {
             "result": {
-              "duration": 423483165,
+              "duration": 502433180,
               "status": "passed"
             },
             "line": 18,
-            "name": "Open click button page",
+            "name": "click button page is opened",
             "match": {
               "location": "com.examples.webuniversity.WebUniversityPage.openClickButtonPage()"
             },
@@ -209,11 +209,11 @@
           },
           {
             "result": {
-              "duration": 44927490,
+              "duration": 64127388,
               "status": "passed"
             },
             "line": 19,
-            "name": "Click on third button",
+            "name": "user click on third button",
             "match": {
               "location": "com.examples.webuniversity.WebUniversityPage.clickOnThirdButton()"
             },
@@ -221,11 +221,11 @@
           },
           {
             "result": {
-              "duration": 8573579,
+              "duration": 10227663,
               "status": "passed"
             },
             "line": 20,
-            "name": "I should see a modal",
+            "name": "see a modal",
             "match": {
               "location": "com.examples.webuniversity.WebUniversityPage.iShouldSeeAModal()"
             },
@@ -233,11 +233,11 @@
           },
           {
             "result": {
-              "duration": 202938740,
+              "duration": 202105410,
               "status": "passed"
             },
             "line": 21,
-            "name": "Close the third modal",
+            "name": "the user close the third modal",
             "match": {
               "location": "com.examples.webuniversity.WebUniversityPage.closeTheThirdModal()"
             },
@@ -247,10 +247,10 @@
       }
     ],
     "name": "Buttons click on Web Driver University",
-    "description": "  I am a user, I navigate on page Click button\n  of Web Driver University and see three button on the home",
+    "description": "  User navigate on page Click Button\n  of Web Driver University and see three button on the home",
     "id": "buttons-click-on-web-driver-university",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/WebUniversity.feature",
+    "uri": "file:src/test/java/features/WebUniversitybutton.feature",
     "tags": []
   }
 ]

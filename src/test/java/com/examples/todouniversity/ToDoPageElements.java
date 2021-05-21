@@ -7,8 +7,17 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ToDoPageElements {
 
-    @FindBy()
-    public WebElement element;
+    @FindBy( tagName = "input")
+    public WebElement input;
+
+    @FindBy( xpath = "//*[@id=\"container\"]/ul/li[4]")
+    public WebElement todo;
+
+    @FindBy( xpath = "//*[@id=\"container\"]/ul/li[1]")
+    public WebElement firstTodo;
+
+    @FindBy( xpath = "//*[@id=\"container\"]/ul/li[1]/span/i")
+    public WebElement firstTrash;
 
     public ToDoPageElements(WebDriver driver){
         PageFactory.initElements(driver, this);

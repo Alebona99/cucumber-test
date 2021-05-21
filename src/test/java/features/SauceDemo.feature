@@ -1,11 +1,11 @@
 Feature: Login on Swag Labs
-  I am an user, I want to login in the site Swag Labs
-  of Sauce Demo with my username and password
+  User want to login in the site Swag Labs
+  of Sauce Demo with his username and password
 
   Scenario Outline: Login on Swag Labs with standard_user
-    Given Open the Swag Labs Page
-    When I insert "<username>" and "<password>"
-    Then I should see the Products
+    Given the Swag Labs Page is opened
+    When the user insert "<username>" and "<password>"
+    Then he should see the Products
 
     Examples:
     | username                | password     |
